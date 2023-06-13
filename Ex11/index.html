@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Adaptadas</title>
+</head>
+<body>
+    <h1>Imagens que se adaptão ao seu dispositivo!</h1>
+    <p>Tente abrir esse site em varios outros lugares</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/imagem-m.png" type="image/png">
+        <img src="Imagens/imagem-g.png" alt="Imagem Flexível">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!-- <audio src="midia/Matuê - Conexões de Máfia feat. Rich the Kid.mp3" controls></audio>
+     Compatível com os Formatos: MP3 WAV OGG-->
+
+     <audio preload="none" controls loop>
+        <source src="midia/Matuê - Conexões de Máfia feat. Rich the Kid.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não pode reproduzir o áudio</p>
+     </audio>
+    
+</body>
+</html>

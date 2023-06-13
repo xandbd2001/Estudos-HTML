@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código Fonte / Pré-Formatação</h2>
+    <p>O comando <code>document.getElementbyId('teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre>
+        <code>
+num = int(input('Digite um número'))
+if num % 2 == 0:
+    print(f'O número (num) é PAR')
+else:
+    print(f'O número (num) é ÍMPAR')
+print('Fim do Programa')
+        </code>
+    </pre>
+ <!-- O comando code retira a identação do código, ou seja
+ o código fica descrito em uma linha só, para ficar com cara 
+de código, envelopamos em código <pre> -->
+
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>O Computador é um burro muito rápido.</q></p>
+ <!--Quando colocamos dentro da tag <q> damos sentido á frase--> 
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Construindo_Web_Sites_Para_Leigos_Tradu/xlLcAwAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&printsec=frontcover">
+        A diferença entre elementos inline e um bloco de
+        texto é importante. Os elementos HTML neste capítulo 
+        descrevem blocos de texto.
+    </blockquote> 
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p> 
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar textos invertidos!</bdo></p>
+</body>
+</html>
