@@ -5,3 +5,5 @@ Pontos de Ancoragem são feitas da seguinte maneira
 -------> 2 Coluna, ou seja, Escolha a altura que irá colocar a imagem, na parte de cima, meio ou parte de baixo (Top, Center, Bottom)
 
 Para que a imagem dê certo no body devemos colocar uma altura(heigth) na página, na maioria das vezes é acionada por vh(View Heigth ou Altura da Visão da Página)
+
+Melhores Background-sizes são os cover, contain e auto (Para que sua imagem não fique muito esticada e esquisita)
