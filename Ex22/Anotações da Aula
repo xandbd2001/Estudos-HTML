@@ -7,3 +7,8 @@ Pontos de Ancoragem são feitas da seguinte maneira
 Para que a imagem dê certo no body devemos colocar uma altura(heigth) na página, na maioria das vezes é acionada por vh(View Heigth ou Altura da Visão da Página)
 
 Melhores Background-sizes são os cover, contain e auto (Para que sua imagem não fique muito esticada e esquisita)
+
+Shorthand - Background
+color > image > position > repeat > [size] > attachment
+
+A parte [size] infelizmente ainda não funciona nos navegadores, ou seja, no manual está dizendo que ele está funcionando, mas na prática não!
