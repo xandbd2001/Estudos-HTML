@@ -12,3 +12,7 @@ Shorthand - Background
 color > image > position > repeat > [size] > attachment
 
 A parte [size] infelizmente ainda não funciona nos navegadores, ou seja, no manual está dizendo que ele está funcionando, mas na prática não!
+
+Comando Margin, só funciona para o alinhamento !Horizontal! Para configurarmos a parte !Vertical! Devemos colocar a parte de fora com position: relative e a parte de dentro com position:absolute, ou seja container e article respectivamente!
+
+Utilizando o código [Transform] conseguimos 'Transformar' a parte do meio na parte de cima, ou seja, Podemos centralizar as caixas!
